@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259BFEE81915623C270B3B42D8218C16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		2808A816FA7B586AB159A1E658018244 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B6AB4F99FB14BDCDB85C24031ECFDD /* TBCityIconInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D504D3571766858E4A29EA4497572C5 /* Pods-LJFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B805E169C416E5DD84DD8F1FBCA878 /* Pods-LJFont-dummy.m */; };
+		3F41B0CF9F7EF8602647F31377610216 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		4D3654E1AF030B15080DF4AB41482142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		7123FF65D11BC6CAB92543391FB72F8D /* TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 60730FE413F18DDDE3A79086E14CAEC9 /* TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97114016268E6DB5B557D8D8B52A6F98 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD6DB54A9F39FC4AD4F9139101581A /* TBCityIconFont.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97EE144EC20952B8C2370A801837BAC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		B56095369F76880DFD19C6E3CFD876ED /* UIImage+TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B57856CEB21827905D284B0D5EAD08B2 /* UIImage+TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F9CCFAEA95737856357248B7AE1D3D /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E99FD9E63CFDA380564741208D36EFB2 /* UIImage+TBCityIconFont.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D5DFDB4F0FF308CDD00A5980B17B30C0 /* TBCityIconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 243733A0B6B75DC64A4FC926DD381D4C /* TBCityIconInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70E1E473CEF6C3B05E56076CF8D2B28 /* IconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FBBF82554F1A1153108788EF0203A5 /* IconFont-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC2F563684624E16234AE217B81C5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9352BFF205C823470D9C3D61B86C179;
+			remoteInfo = IconFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AE9892CC0FE4E0B67338FCFC6E62C7 /* Pods-LJFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJFont.release.xcconfig"; sourceTree = "<group>"; };
+		0414F15C733F21A1417485283AB21335 /* Pods-LJFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		243733A0B6B75DC64A4FC926DD381D4C /* TBCityIconInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconInfo.h; path = IconFont/TBCityIconInfo.h; sourceTree = "<group>"; };
+		2B0FEAE7B3018DA23127740207FAA8DD /* libIconFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIconFont.a; path = libIconFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5C5E24AA36BA8A9A49E3CB0613F0A10B /* libPods-LJFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LJFont.a"; path = "libPods-LJFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60730FE413F18DDDE3A79086E14CAEC9 /* TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconFont.h; path = IconFont/TBCityIconFont.h; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		71B805E169C416E5DD84DD8F1FBCA878 /* Pods-LJFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJFont-dummy.m"; sourceTree = "<group>"; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D088F22048C73671ABC12983D483E52 /* IconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconFont-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F91156AEBAF1A12BA4BD676DDBB972F /* Pods-LJFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJFont-resources.sh"; sourceTree = "<group>"; };
+		A89046C63AE61B64C692D6D1FB295E7D /* IconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconFont.xcconfig; sourceTree = "<group>"; };
+		B57856CEB21827905D284B0D5EAD08B2 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBCityIconFont.h"; path = "IconFont/UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		C39124C940D18758CFE4491D9A710AF9 /* Pods-LJFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0B6AB4F99FB14BDCDB85C24031ECFDD /* TBCityIconInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconInfo.m; path = IconFont/TBCityIconInfo.m; sourceTree = "<group>"; };
+		D5101C3F499A9D98AA0EC5CEF5276D35 /* Pods-LJFont-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJFont-frameworks.sh"; sourceTree = "<group>"; };
+		D6DD6DB54A9F39FC4AD4F9139101581A /* TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconFont.m; path = IconFont/TBCityIconFont.m; sourceTree = "<group>"; };
+		E99FD9E63CFDA380564741208D36EFB2 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBCityIconFont.m"; path = "IconFont/UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		F9FBBF82554F1A1153108788EF0203A5 /* IconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconFont-dummy.m"; sourceTree = "<group>"; };
+		FE44F36E808CF640730826CA0F797F69 /* Pods-LJFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJFont.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5448A96BC054CC7ACAF231F9A2F85814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3654E1AF030B15080DF4AB41482142 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7DB9F36CA93B041ACEC047EA50C497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41B0CF9F7EF8602647F31377610216 /* CoreGraphics.framework in Frameworks */,
+				97EE144EC20952B8C2370A801837BAC1 /* Foundation.framework in Frameworks */,
+				259BFEE81915623C270B3B42D8218C16 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B0F063D9520E0595690A21DE26DBB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0FEAE7B3018DA23127740207FAA8DD /* libIconFont.a */,
+				5C5E24AA36BA8A9A49E3CB0613F0A10B /* libPods-LJFont.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663796B2F624E3A83ACBF99ECD6CDA3C /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				60730FE413F18DDDE3A79086E14CAEC9 /* TBCityIconFont.h */,
+				D6DD6DB54A9F39FC4AD4F9139101581A /* TBCityIconFont.m */,
+				243733A0B6B75DC64A4FC926DD381D4C /* TBCityIconInfo.h */,
+				D0B6AB4F99FB14BDCDB85C24031ECFDD /* TBCityIconInfo.m */,
+				B57856CEB21827905D284B0D5EAD08B2 /* UIImage+TBCityIconFont.h */,
+				E99FD9E63CFDA380564741208D36EFB2 /* UIImage+TBCityIconFont.m */,
+				FEBAE6F2093B1D2CCDA6105FBF5B1492 /* Support Files */,
+			);
+			name = IconFont;
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+		6A60CF4B93F4D6BC410F284B4A2D9506 /* Pods-LJFont */ = {
+			isa = PBXGroup;
+			children = (
+				0414F15C733F21A1417485283AB21335 /* Pods-LJFont-acknowledgements.markdown */,
+				C39124C940D18758CFE4491D9A710AF9 /* Pods-LJFont-acknowledgements.plist */,
+				71B805E169C416E5DD84DD8F1FBCA878 /* Pods-LJFont-dummy.m */,
+				D5101C3F499A9D98AA0EC5CEF5276D35 /* Pods-LJFont-frameworks.sh */,
+				9F91156AEBAF1A12BA4BD676DDBB972F /* Pods-LJFont-resources.sh */,
+				FE44F36E808CF640730826CA0F797F69 /* Pods-LJFont.debug.xcconfig */,
+				01AE9892CC0FE4E0B67338FCFC6E62C7 /* Pods-LJFont.release.xcconfig */,
+			);
+			name = "Pods-LJFont";
+			path = "Target Support Files/Pods-LJFont";
+			sourceTree = "<group>";
+		};
+		6B3BF69E7A2637637964465B294CAF0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663796B2F624E3A83ACBF99ECD6CDA3C /* IconFont */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6B3BF69E7A2637637964465B294CAF0F /* Pods */,
+				5B0F063D9520E0595690A21DE26DBB5E /* Products */,
+				D2AEA101E50BBDE0835BC15B08B0D495 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AEA101E50BBDE0835BC15B08B0D495 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A60CF4B93F4D6BC410F284B4A2D9506 /* Pods-LJFont */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FEBAE6F2093B1D2CCDA6105FBF5B1492 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A89046C63AE61B64C692D6D1FB295E7D /* IconFont.xcconfig */,
+				F9FBBF82554F1A1153108788EF0203A5 /* IconFont-dummy.m */,
+				8D088F22048C73671ABC12983D483E52 /* IconFont-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IconFont";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F37F56719BA0175CE7E09AA03688581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7123FF65D11BC6CAB92543391FB72F8D /* TBCityIconFont.h in Headers */,
+				D5DFDB4F0FF308CDD00A5980B17B30C0 /* TBCityIconInfo.h in Headers */,
+				B56095369F76880DFD19C6E3CFD876ED /* UIImage+TBCityIconFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7375685F2450DD8B811838AAE999C111 /* Pods-LJFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D2F46E937B49A10150ED2047A032AA /* Build configuration list for PBXNativeTarget "Pods-LJFont" */;
+			buildPhases = (
+				74159014B20E365D1A38DC0C958E893D /* Sources */,
+				5448A96BC054CC7ACAF231F9A2F85814 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51479C7FE8F965B852A7BA2183759990 /* PBXTargetDependency */,
+			);
+			name = "Pods-LJFont";
+			productName = "Pods-LJFont";
+			productReference = 5C5E24AA36BA8A9A49E3CB0613F0A10B /* libPods-LJFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9352BFF205C823470D9C3D61B86C179 /* IconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4EBADB1A7EBD21493B83B32D0E6371 /* Build configuration list for PBXNativeTarget "IconFont" */;
+			buildPhases = (
+				BBCB0510690489091C8A55AE093283F6 /* Sources */,
+				DA7DB9F36CA93B041ACEC047EA50C497 /* Frameworks */,
+				6F37F56719BA0175CE7E09AA03688581 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFont;
+			productName = IconFont;
+			productReference = 2B0FEAE7B3018DA23127740207FAA8DD /* libIconFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B0F063D9520E0595690A21DE26DBB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9352BFF205C823470D9C3D61B86C179 /* IconFont */,
+				7375685F2450DD8B811838AAE999C111 /* Pods-LJFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74159014B20E365D1A38DC0C958E893D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D504D3571766858E4A29EA4497572C5 /* Pods-LJFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCB0510690489091C8A55AE093283F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E1E473CEF6C3B05E56076CF8D2B28 /* IconFont-dummy.m in Sources */,
+				97114016268E6DB5B557D8D8B52A6F98 /* TBCityIconFont.m in Sources */,
+				2808A816FA7B586AB159A1E658018244 /* TBCityIconInfo.m in Sources */,
+				C6F9CCFAEA95737856357248B7AE1D3D /* UIImage+TBCityIconFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51479C7FE8F965B852A7BA2183759990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IconFont;
+			target = F9352BFF205C823470D9C3D61B86C179 /* IconFont */;
+			targetProxy = CAC2F563684624E16234AE217B81C5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C8E22EC42921509A80109963FE2567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE44F36E808CF640730826CA0F797F69 /* Pods-LJFont.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F13CF0C54BC962996B97C2F12720108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89046C63AE61B64C692D6D1FB295E7D /* IconFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IconFont/IconFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2989FCBFBC592ED1ED0EA4D48C0F73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AE9892CC0FE4E0B67338FCFC6E62C7 /* Pods-LJFont.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDE395B302D240382EEC8ED922B98A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89046C63AE61B64C692D6D1FB295E7D /* IconFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IconFont/IconFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D2F46E937B49A10150ED2047A032AA /* Build configuration list for PBXNativeTarget "Pods-LJFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8E22EC42921509A80109963FE2567 /* Debug */,
+				D2989FCBFBC592ED1ED0EA4D48C0F73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4EBADB1A7EBD21493B83B32D0E6371 /* Build configuration list for PBXNativeTarget "IconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F13CF0C54BC962996B97C2F12720108 /* Debug */,
+				DDE395B302D240382EEC8ED922B98A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

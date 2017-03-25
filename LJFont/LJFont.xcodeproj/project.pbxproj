@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360D98081F5BC4CDAE9592E4 /* libPods-LJFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41881ADADE8052F1B55A523E /* libPods-LJFont.a */; };
+		CEF7CFF91E7F774D0001E198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7CFF81E7F774D0001E198 /* main.m */; };
+		CEF7CFFC1E7F774D0001E198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7CFFB1E7F774D0001E198 /* AppDelegate.m */; };
+		CEF7CFFF1E7F774D0001E198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7CFFE1E7F774D0001E198 /* ViewController.m */; };
+		CEF7D0021E7F774D0001E198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF7D0001E7F774D0001E198 /* Main.storyboard */; };
+		CEF7D0041E7F774D0001E198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF7D0031E7F774D0001E198 /* Assets.xcassets */; };
+		CEF7D0071E7F774D0001E198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF7D0051E7F774D0001E198 /* LaunchScreen.storyboard */; };
+		CEF7D00F1E7F78BC0001E198 /* LianjiaFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF7D00E1E7F77DD0001E198 /* LianjiaFont.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		189619E6C53B01041C8DEC86 /* Pods-LJFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFont.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJFont/Pods-LJFont.debug.xcconfig"; sourceTree = "<group>"; };
+		41881ADADE8052F1B55A523E /* libPods-LJFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469DDB6B0E568BFAD1E4141F /* Pods-LJFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJFont/Pods-LJFont.release.xcconfig"; sourceTree = "<group>"; };
+		CEF7CFF41E7F774D0001E198 /* LJFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF7CFF81E7F774D0001E198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF7CFFA1E7F774D0001E198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF7CFFB1E7F774D0001E198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF7CFFD1E7F774D0001E198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEF7CFFE1E7F774D0001E198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEF7D0011E7F774D0001E198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF7D0031E7F774D0001E198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF7D0061E7F774D0001E198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF7D0081E7F774D0001E198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF7D00E1E7F77DD0001E198 /* LianjiaFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LianjiaFont.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF7CFF11E7F774D0001E198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360D98081F5BC4CDAE9592E4 /* libPods-LJFont.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB9A05A4AB5F82AB930B9F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41881ADADE8052F1B55A523E /* libPods-LJFont.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C024F9BEC51E3B82F66C6504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				189619E6C53B01041C8DEC86 /* Pods-LJFont.debug.xcconfig */,
+				469DDB6B0E568BFAD1E4141F /* Pods-LJFont.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEF7CFEB1E7F774D0001E198 = {
+			isa = PBXGroup;
+			children = (
+				CEF7CFF61E7F774D0001E198 /* LJFont */,
+				CEF7CFF51E7F774D0001E198 /* Products */,
+				C024F9BEC51E3B82F66C6504 /* Pods */,
+				1CB9A05A4AB5F82AB930B9F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF7CFF51E7F774D0001E198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7CFF41E7F774D0001E198 /* LJFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF7CFF61E7F774D0001E198 /* LJFont */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7D00E1E7F77DD0001E198 /* LianjiaFont.ttf */,
+				CEF7CFFA1E7F774D0001E198 /* AppDelegate.h */,
+				CEF7CFFB1E7F774D0001E198 /* AppDelegate.m */,
+				CEF7CFFD1E7F774D0001E198 /* ViewController.h */,
+				CEF7CFFE1E7F774D0001E198 /* ViewController.m */,
+				CEF7D0001E7F774D0001E198 /* Main.storyboard */,
+				CEF7D0031E7F774D0001E198 /* Assets.xcassets */,
+				CEF7D0051E7F774D0001E198 /* LaunchScreen.storyboard */,
+				CEF7D0081E7F774D0001E198 /* Info.plist */,
+				CEF7CFF71E7F774D0001E198 /* Supporting Files */,
+			);
+			path = LJFont;
+			sourceTree = "<group>";
+		};
+		CEF7CFF71E7F774D0001E198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7CFF81E7F774D0001E198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF7CFF31E7F774D0001E198 /* LJFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF7D00B1E7F774D0001E198 /* Build configuration list for PBXNativeTarget "LJFont" */;
+			buildPhases = (
+				58ECDDBD7969782FF53A07C0 /* [CP] Check Pods Manifest.lock */,
+				CEF7CFF01E7F774D0001E198 /* Sources */,
+				CEF7CFF11E7F774D0001E198 /* Frameworks */,
+				CEF7CFF21E7F774D0001E198 /* Resources */,
+				F9F3FB39C619A6FDF889417C /* [CP] Embed Pods Frameworks */,
+				4806A38FEDB5C3B04001FB5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJFont;
+			productName = LJFont;
+			productReference = CEF7CFF41E7F774D0001E198 /* LJFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF7CFEC1E7F774D0001E198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nero;
+				TargetAttributes = {
+					CEF7CFF31E7F774D0001E198 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEF7CFEF1E7F774D0001E198 /* Build configuration list for PBXProject "LJFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF7CFEB1E7F774D0001E198;
+			productRefGroup = CEF7CFF51E7F774D0001E198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF7CFF31E7F774D0001E198 /* LJFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF7CFF21E7F774D0001E198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF7D00F1E7F78BC0001E198 /* LianjiaFont.ttf in Resources */,
+				CEF7D0071E7F774D0001E198 /* LaunchScreen.storyboard in Resources */,
+				CEF7D0041E7F774D0001E198 /* Assets.xcassets in Resources */,
+				CEF7D0021E7F774D0001E198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4806A38FEDB5C3B04001FB5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJFont/Pods-LJFont-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58ECDDBD7969782FF53A07C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F3FB39C619A6FDF889417C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJFont/Pods-LJFont-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF7CFF01E7F774D0001E198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF7CFFF1E7F774D0001E198 /* ViewController.m in Sources */,
+				CEF7CFFC1E7F774D0001E198 /* AppDelegate.m in Sources */,
+				CEF7CFF91E7F774D0001E198 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF7D0001E7F774D0001E198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF7D0011E7F774D0001E198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF7D0051E7F774D0001E198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF7D0061E7F774D0001E198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF7D0091E7F774D0001E198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF7D00A1E7F774D0001E198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF7D00C1E7F774D0001E198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189619E6C53B01041C8DEC86 /* Pods-LJFont.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.LJFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF7D00D1E7F774D0001E198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469DDB6B0E568BFAD1E4141F /* Pods-LJFont.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.LJFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF7CFEF1E7F774D0001E198 /* Build configuration list for PBXProject "LJFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7D0091E7F774D0001E198 /* Debug */,
+				CEF7D00A1E7F774D0001E198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF7D00B1E7F774D0001E198 /* Build configuration list for PBXNativeTarget "LJFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7D00C1E7F774D0001E198 /* Debug */,
+				CEF7D00D1E7F774D0001E198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF7CFEC1E7F774D0001E198 /* Project object */;
+}
